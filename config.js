@@ -14,3 +14,6 @@ AUTO_REPLY: process.env.AUTO_REPLY || "true",
 AUTO_REACT: process.env.AUTO_REACT || "true",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",    
 };
+global.wlcm:  process.env.global.wlcm ||  "true",
+    global.warncount = process.env.WARN_COUNT || 3
+global.readmessage = process.env.READ_MESSAGE || "true"
